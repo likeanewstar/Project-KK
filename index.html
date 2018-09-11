@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nestle Kitkat">
+    <meta name="apple-mobile-web-app-title" content="KITKAT" />
+    <title>KITKAT</title>
+    <meta name="description" content="You know what to do, just click/tap and... Have a break, have a KITKAT.">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Webfont -->
+    <link href="fonts/font.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- CSS -->
+    <link href="css/style_v180905.css" rel="stylesheet" type="text/css" />
+    <!-- JavaScript & jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body class="no-scroll">
+    <div id="wrap">
+        <!-- loading spinner -->
+        <div class="spinner">
+            <img src="images/spin.png" aria-label="loading" alt="" />
+        </div>
+
+        <!-- skip navigation -->
+        <a href="#container" id="skip-nav">Skip to main content</a>
+
+        <!-- header -->
+        <header id="header">
+            <img class="main-bg" src="images/bg.jpg" alt="" />
+            <div class="layer-mask"></div>
+            <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Nestle Kitkat" /></a></h1>
+            <div class="menu-open-wrap">
+                <a class="menu-open" href="#"><img src="images/open_icon.png" alt="menu open icon" /></a>
+            </div>
+            <div class="copy-area">
+                <h2 class="main-copy"><img src="images/kitkat.png" alt="kitkat" /></h2>
+                <p class="sub-copy"><span>Have</span><span>a break, have a KitKat.</span></p>
+            </div>
+            <a class="scroll-down-btn" href="#"><img src="images/scroll_btn.png" alt="arrow down" /><i class="fas fa-arrow-down"></i></a>
+        </header>
+
+        <!-- menu -->
+        <nav id="menu">
+            <ul class="gnb" role="menu">
+                <li><a href="#" role="menuitem">KitKat Studio<span></span></a></li>
+                <li><a href="#" role="menuitem">Break Emoji</a></li>
+                <li><a href="#" role="menuitem">About KitKat</a></li>
+                <li><a href="#" role="menuitem">Product</a></li>
+                <li><a href="#" role="menuitem">Better Chocolate</a></li>
+                <li><a href="#" role="menuitem">Cocoa Plan</a></li>
+            </ul>
+            <div class="sns-wrap" role="menu">
+                <h3 class="sns-tit">Follow us</h3>
+                <ul class="sns">
+                    <li><a href="#" role="menuitem">dribbble</a></li>
+                    <li><a href="#" role="menuitem">behance</a></li>
+                    <li><a href="#" role="menuitem">facebook</a></li>
+                    <li><a href="#" role="menuitem">instagram</a></li>
+                    <li><a href="#" role="menuitem">twitter</a></li>
+                    <li><a href="#" role="menuitem">linkedin</a></li>
+                </ul>
+            </div>
+            <a class="menu-close close-btn" href="#">CLOSE</a>
+        </nav>
+
+        <!-- main container -->
+        <main id="container">
+            <!-- kitkat studio -->
+            <section id="studio" class=" wrapper clearfix menu01">
+                <div class="box">
+                    <h2 class="tit">KitKat studio</h2>
+                    <p class="desc">
+                        A celebration of food, flavour, and most importantly…creativity!<br />
+                        If you love a KitKat, you’re in for a truly unique experience.<br />
+                        Create your break by selecting your favourite chocolate, <br />
+                        add up to three delicious signature ingredients, <br />
+                        and top it off with some personalised packaging - perfect for a gift <br />
+                        or a delectable treat for yourself!
+                    </p>
+                </div>
+            </section>
+
+            <!-- breaks taken this year -->
+            <section id="break-rate">
+                <div class="box">
+                    <h2 class="tit">breaks taken this year</h2>
+                    <p class="counter">0</p>
+                    <p class="icon"><img src="images/rabbit.png" alt="rabbit icon" /></p>
+                </div>
+            </section>
+
+            <!-- the break emoji -->
+            <section id="emoji" class="menu02">
+                <div class="wrapper">
+                    <h2 class="tit">The break emoji</h2>
+                    <p class="desc">
+                        For all of you who love to break, we are asking you <br />
+                        for a little support to help our campaign. <br />
+                        A campaign to get the word ‘break’ recognized <br />
+                        as an emoji and added to the emoji lexicon.<br />
+                        Please help us by signing our petition, or tweet your support <br />
+                        with #thebreakemoji and show the world how you break!
+                    </p>
+                    <p class="btn-con">
+                        <a href="#" class="btn view-btn">view video</a>
+                        <span class="or">or</span>
+                        <a href="#" class="btn"><strong>sign the petition</strong></a>
+                    </p>
+                </div>
+                <aside class="popup-vid">
+                    <iframe id="kitkat" src="https://player.vimeo.com/video/152392621?title=0&byline=0&portrait=0" width="800" height="450" title="kitkat promotion video"></iframe>
+                    <a href="#" class="popup-close close-btn">CLOSE</a>
+                </aside>
+            </section>
+
+            <!-- create your break -->
+            <section id="create">
+                <div class="layer-mask"></div>
+                <div class="box">
+                    <span>At KitKat Studio</span>
+                    <h3 class="title">create your break</h3>
+                </div>
+            </section>
+
+            <!-- history of kitkat -->
+            <section id="history" class="wrapper clearfix menu03">
+                <div class="box">
+                    <h2 class="say-hi"><img src="images/hi.png" alt="hi there" /></h2>
+                    <p class="desc">
+                        <span class="desc1">Awesome product was <br class="only_w" /> developed as a four-</span>
+                        <span class="desc2">
+                        finger wafer crisp, initially launched in London and the South East
+                        in September 1935 as  'Rowntree’s Chocolate Crisp' and re-named
+                        two years later as KitKat Chocolate Crisp. <br />
+                        KitKat was established as Rowntree’s
+                        leading product, a position that it has maintained ever since.
+                        During the war, KitKat was portrayed as a valuable wartime food
+                        and advertising described the brand as “What active people need”.
+                        </span>
+                    </p>
+                </div>
+            </section>
+
+            <!-- product list -->
+            <section id="product" class="wrapper menu04">
+                <h2 class="hide">product list</h2>
+                <div class="product-list">
+                    <ul class="slide">
+                        <li><img src="images/p_img_01.png" alt="4 Finger" /></li>
+                        <li><img src="images/p_img_02.png" alt="2 Finger" /></li>
+                        <li><img src="images/p_img_03.png" alt="Crunky" /></li>
+                        <li><img src="images/p_img_04.png" alt="Snap &amp; Share" /></li>
+                    </ul>
+                    <ul class="indicator">
+                        <!--<li><a href="#">1번 이미지</a></li>
+                        <li><a href="#">2번 이미지</a></li>
+                        <li><a href="#">3번 이미지</a></li>
+                        <li><a href="#">4번 이미지</a></li>-->
+                    </ul>
+                    <p class="control">
+                        <a href="#" class="prev"><i class="fas fa-long-arrow-alt-left"></i><span class="hide">previous product</span></a>
+                        <a href="#" class="next"><i class="fas fa-long-arrow-alt-right"></i><span class="hide">next product</span></a>
+                    </p>
+                </div>
+                <ul class="text">
+                    <li>
+                        <em class="name clearfix"><img src="images/p_name_01.svg" alt="4 Finger" /></em>
+                        <span class="desc">So good we sent it into space.<br />#BreakFromGravity</span>
+                    </li>
+                    <li>
+                        <em class="name clearfix"><img src="images/p_name_02.svg" alt="2 Finger" /></em>
+                        <span class="desc">The good old breaktime classic<br />#BreakFromGravity</span>
+                    </li>
+                    <li>
+                        <em class="name clearfix"><img src="images/p_name_03.svg" alt="Crunky" /></em>
+                        <span class="desc">The break with a bit more bite<br />#BreakFromGravity</span>
+                    </li>
+                    <li>
+                        <em class="name"><img src="images/p_name_04.svg" alt="Snap &amp; Share" /></em>
+                        <span class="desc">A big bar of extra chocolaty KitKat<br />#BreakFromGravity</span>
+                    </li>
+                </ul>
+                <div class="hand-wrap">
+                    <img class="hand" src="images/hand.png" alt="hand" />
+                    <img class="finger" src="images/finger.png" alt="finger" />
+                </div>
+            </section>
+
+            <!-- better chocolate -->
+            <section id="better-chocolate" class="menu05">
+                <div class="wrapper">
+                    <h2 class="tit">Better Chocolate</h2>
+                    <p class="desc">We are here where we believe we will meet people like you, who sincerely love <br /> chocolate and whose values resonate well with ours.</p>
+                    <ul class="better">
+                        <li>
+                            <span class="icon"><img src="images/better_01.png" alt="icon" /></span>
+                            <em class="better-tit">Better Plants</em>
+                            <span class="txt">Min. 1.4 million higher-yielding <br />trees provided <br />to cocoa farmers in 2015.</span>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="images/better_02.png" alt="icon" /></span>
+                            <em class="better-tit">Better Cocoa</em>
+                            <span class="txt">100,000 tons of cocoa  <br />will be sourced through  <br />the Nestle Cocoa Plan in 2015. </span>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="images/better_03.png" alt="icon" /></span>
+                            <em class="better-tit">Better Schools</em>
+                            <span class="txt">40 schools on Cote  <br />d'Ivoire over 2012-2014.</span>
+                        </li>
+                        <li>
+                            <span class="icon"><img src="images/better_04.png" alt="icon" /></span>
+                            <em class="better-tit">Better Farming</em>
+                            <span class="txt">Min. 30,000 cocoa farmers  <br />will be trained <br />on good and sustainable <br /> cocoa farming practices in 2015.</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- cocoa plan campaign -->
+            <section id="cocoa-plan" class="menu06">
+                <h2 class="tit">Nestle cocoa plan</h2>
+                <p class="desc">
+                    Improving the lives of cocoa farmers and the quality of their products <br />Supporting farmers for better chocolate
+                </p>
+                <img src="images/cacao.png" alt="" />
+                <p class="btn-con">
+                    <a href="#" class="btn">visit website</a>
+                    <a href="#" class="btn">visit facebook</a>
+                </p>
+            </section>
+
+            <!-- enjoy : background video -->
+            <section id="enjoy">
+                <video autoplay muted loop preload="auto" class="making-video">
+                    <source src="videos/kitkat.mp4" type="video/mp4">
+                    <source src="videos/kitkat.ogv" type="video/ogg">
+                    Your browser does not support HTML5 video.
+                </video>
+                <div class="content">
+                    <h2 class="tit"> We want to help shape a better<br/>and healthier world.</h2>
+                    <button class="play-btn">Pause</button>
+                </div>
+            </section>
+
+            <!-- top button -->
+            <a class="top-btn" href="#">TOP</a>
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <a class="top-btn-ft" href="#"><img src="images/top_btn_ft.png" alt="top button" /></a>
+            <ul class="footer-list">
+                <li>
+                    <h3 class="title">Nestle KitKat</h3>
+                    <address>
+                        <span class="addr">800 North Brand Blvd. <br />Glendale, CA, 91203 <br />United States</span>
+                        <span class="tel">+1-818-549 60 00</span>
+                    </address>
+                </li>
+                <li>
+                    <h3 class="title">Contact Nestle</h3>
+                    <span>hello@nestle.com</span>
+                    <span>bussiness@nestle.com</span>
+                    <span>jobs@nestle.com</span>
+                    <span>Nestle/USA</span>
+                    <span>nestle.com</span>
+                </li>
+                <li>
+                    <h3 class="title">Follow Us</h3>
+                    <ul class="sns">
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i><span>Pinterest</span></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
+                        <li><a href="#"><i class="fab fa-dribbble"></i><span>Dribble</span></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <!-- Script -->
+	<script src="js/front_v180905.js"></script>
+</body>
+</html>
